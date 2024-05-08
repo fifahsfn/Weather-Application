@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Karuna Weather Assesment</h1>
+    </header>
+    <main>
+        <section class="location">
+            <h2>Location</h2>
+            <p id="city-country">Fetching location...</p>
+        </section>
+        <section class="current-weather">
+            <h2>Current Weather</h2>
+            <div class="weather-info">
+                <p id="temperature">Temperature: --°C</p>
+                <p id="conditions">Conditions: --</p>
+                <i id="weather-icon" class="fas fa-question"></i>
+            </div>
+        </section>
+        <section class="forecast">
+            <h2>Forecast</h2>
+            <div id="forecast-list" class="forecast-list">
+                <!-- Forecast data will be populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; By Afifah Safuani</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
